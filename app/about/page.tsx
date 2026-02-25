@@ -7,7 +7,7 @@ const libreFranklin = Libre_Franklin({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main
       className={libreFranklin.className}
@@ -27,7 +27,6 @@ export default function Home() {
           gap: "48px",
           width: "100%",
           maxWidth: "900px",
-          position: "relative",
         }}
       >
         {/* MyCard */}
@@ -43,78 +42,45 @@ export default function Home() {
               fontWeight: 400,
               color: "#ccc",
               marginBottom: "12px",
-              letterSpacing: "0.02em",
             }}
           >
-            Lets Work{" "}
-            <span style={{ color: "#f97316", fontWeight: 600 }}>Together !</span>
+            About{" "}
+            <span style={{ color: "#f97316", fontWeight: 600 }}>Me</span>
           </p>
 
-          <h1
+          <h2
             style={{
-              fontSize: "2rem",
+              fontSize: "1.6rem",
               fontWeight: 800,
-              lineHeight: 1.2,
+              lineHeight: 1.3,
               marginBottom: "20px",
               color: "#fff",
             }}
           >
-            Hi From{" "}
-            <span style={{ color: "#f97316" }}>Thaksin</span> ,<br />
-            Interactive Designer &amp; Fullstack<br />
-            Web Developer
-          </h1>
+            I find fulfillment in blending visual design with the power of
+            coding to create meaningful experiences.
+          </h2>
 
           <p
             style={{
               fontSize: "0.88rem",
               color: "#999",
               lineHeight: 1.7,
-              marginBottom: "32px",
               maxWidth: "420px",
             }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime
             tempora at neque a adipisci nulla voluptatem? Mollitia, officiis,
-            architecto earum voluptates obcaecati corrupti voluptatem.
+            architecto earum voluptates obcaecati corrupti voluptatem. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Iusto maxime tempora at
+            neque a adipisci nulla voluptatem? Mollitia, officiis, architecto earum
+            voluptates obcaecati corrupti voluptatem.
           </p>
-
-          {/* Stats */}
-          <div style={{ display: "flex", gap: "40px" }}>
-            <div>
-              <div
-                style={{
-                  fontSize: "1.8rem",
-                  fontWeight: 800,
-                  color: "#f97316",
-                }}
-              >
-                3+
-              </div>
-              <div style={{ fontSize: "0.72rem", color: "#888", marginTop: "2px" }}>
-                Years of<br />Experience
-              </div>
-            </div>
-            <div>
-              <div
-                style={{
-                  fontSize: "1.8rem",
-                  fontWeight: 800,
-                  color: "#f97316",
-                }}
-              >
-                10+
-              </div>
-              <div style={{ fontSize: "0.72rem", color: "#888", marginTop: "2px" }}>
-                Projects<br />Completed
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* SideMenu */}
         <div style={{ flexShrink: 0 }}>
-          <SideMenu activePath="/" />
+          <SideMenu activePath="/about" />
         </div>
       </div>
     </main>
