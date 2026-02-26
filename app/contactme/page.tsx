@@ -1,7 +1,7 @@
 "use client";
 
 import MyCard from "@/components/Mycard";
-import SideMenu from "@/components/SideMenu";
+import SideMenu from "@/components/Sidemenu";
 import { Libre_Franklin } from "next/font/google";
 import { useState } from "react";
 
