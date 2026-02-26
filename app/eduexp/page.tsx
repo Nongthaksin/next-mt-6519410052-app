@@ -21,7 +21,7 @@ const timeline = [
     highlight: false,
     items: [
       {
-        title: "Bachelor Degree in Technology Digital and Innovation",
+        title: "I am a student majoring in IoT",
         subtitle: "Southeast Asia University",
       },
     ],
@@ -30,7 +30,7 @@ const timeline = [
     period: "2016 - 2021",
     highlight: false,
     items: [
-      { title: "High school", subtitle: "Taweethapiseck School" },
+      { title: "High school", subtitle: "Mathayomwatsing School" },
     ],
   },
 ];
